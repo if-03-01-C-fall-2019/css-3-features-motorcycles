@@ -41,10 +41,21 @@ body {
     color: black;
 }
 .header img{
-	width: 200px;
-	height: auto;
+    width: 200px;
+    height: auto;
 }
 /* Header/Blog Title */
+
+/*Slider*/
+#carouselExampleIndicators{text-align: center;}
+#slider{
+    background-color: white;
+}
+#slider img {
+    height: 400px;
+    width: auto;
+}
+/*Slider*/
 
 /*Navbar*/
 nav ul {
@@ -67,30 +78,10 @@ nav li a {
 }
 /*Navbar*/
 
-/*Slider*/
-#carouselExampleIndicators{text-align: center;}
-#slider{
-	background-color: white;
-}
-#slider img {
-	height: 400px;
-	width: auto;
-}
-/*Slider*/
-
 /*Main*/
 .main {
-	background-color: dimgray;
-	padding: 50px 20px 50px 20px;
-}
-.main h2,h3{
-	color: white;
-}
-.main img {
-    height: 150px;
-    width: auto;
-    float: right;
-    padding-right: 100px;
+    background-color: dimgrey;
+    padding: 50px 20px 50px 20px;
 }
 /*Main*/
 

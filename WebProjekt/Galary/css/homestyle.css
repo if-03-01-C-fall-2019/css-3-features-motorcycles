@@ -46,17 +46,6 @@ body {
 }
 /* Header/Blog Title */
 
-/*Slider*/
-#carouselExampleIndicators{text-align: center;}
-#slider{
-    background-color: white;
-}
-#slider img {
-    height: 400px;
-    width: auto;
-}
-/*Slider*/
-
 /*Navbar*/
 nav ul {
     list-style-type: none;
@@ -81,7 +70,8 @@ nav li a {
 /*Main*/
 .main {
     background-color: dimgrey;
-    padding: 50px 20px 50px 20px;
+    margin: 0px;
+    padding: 50px 0px 50px 0px;
 }
 /*Main*/
 

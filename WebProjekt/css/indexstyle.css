@@ -10,8 +10,17 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
-}
 
+/*border-radius: 15000px;*/
+}
+.header{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+.footer{
+ border-bottom-left-radius: 25px;
+ border-bottom-right-radius: 25px;
+}
 /* Header/Blog Title */
 #logo-left{
 	float: left;

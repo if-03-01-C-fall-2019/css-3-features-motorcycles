@@ -53,8 +53,55 @@ body {
 	width: 200px;
 	height: auto;
 }
+
+table{
+
+}
+td{
+	background-color: dimgrey;
+}
+#motorbikemaker p	{
+	color: white;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#motorbikemaker {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#motoracerage{
+	color: white;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Header/Blog Title */
 
+/*
+.picturelefttop{
+float: right;
+}
+.picturelefttop p{
+	color: white;
+	font-size: 20px;
+}
+.picturtoprigth{
+float: right;
+display: flex;
+    justify-content: right;
+    align-items: Top;
+}
+
+
+
+.picturebotenleft{
+	float: left;
+	display: flex;
+	    justify-content: left;
+	    align-items: bottom;
+}*/
 /*Slider*/
 #carouselExampleIndicators{text-align: center;}
 #slider{
@@ -109,12 +156,19 @@ nav li a {
 	width: 450px;
 	height: auto;
 }
-table {
+#linear-gardient p {
+	display: flex;
+		justify-content: center;
+		align-items: center;
+	background-image:
+linear-gradient(to right, red, yellow, green, blue);
+}
+/*table {
   	font-family: arial, sans-serif;
   	border-collapse: collapse;
   	width: 50%;
 	border: 2px solid black;
-}
+}*/
 td, th {
   text-align: center;
 }
